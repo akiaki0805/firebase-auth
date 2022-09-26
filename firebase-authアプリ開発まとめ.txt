@@ -1,0 +1,38 @@
+統合開発環境
+[Visual Studio code]
+インストールモジュール
+[react]
+[firebase]
+[bootstrap]
+[react-router-dom]
+
+--------------------
+
+データベース
+[firebase]
+プロジェクト名
+[React-Firebase-Auth-master]
+webアプリ名
+[React-Firebase-Auth-master]
+
+https://coders-shelf.com/react-router-v6-intro/
+react-router-domのバージョンが5から6に変わっていたため、一部変更する必要があったので修正しました。
+上記を参考に修正しました。
+
+SwithがRoutesに変更されています。
+
+useHistory()がuseNavigate()に変更されています。
+
+それによってhistory.push()の部分もnavigate()に変更されました。
+
+上記の変更によってRedirectが機能しないため、PrivateRoute.jsとApp.jsを一部変更
+
+-----------------------------------------------------------------
+firebaseのバージョンが変わったため、インポートのアドレスを修正しました。
+import firebase from "firebase/compat/app"
+import "firebase/compat/auth"
+
+
+
+
+
