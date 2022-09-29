@@ -1,3 +1,4 @@
+// 認証に必要な入力情報や状態、
 import React, { useContext, useState, useEffect } from 'react'
 import { auth } from '../firebase'
 
